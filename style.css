@@ -668,18 +668,18 @@ body {
   }
   
   .icon-1 {
-    top: 20px;
-    right: 120px;
+    top: 70px;
+    right: 200px;
   }
   
   .icon-2 {
-    top: 25px;
-    right: 1px;
+    top: 10px;
+    right: -40px;
   }
   
   .icon-3 {
-    bottom: 0px;
-    right: 1px;
+    top: -10px;
+  left: -15px;
   }
 
 @media (max-width: 480px) {
@@ -694,15 +694,16 @@ body {
     
 }
 /* Newsletter container */
-.newsletter-container {
+/* .newsletter-container {
   background-color: #4a90e2;
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 2px;
   border-radius: 10px;
   max-width: 700px;
   width: 90%;
   display: grid;
+  margin-left: 350px;
   height: 250px;
   line-height: 1;
   place-items: center;
@@ -721,7 +722,7 @@ body {
 }
 
 /* Form styling */
-.newsletter-form {
+/*.newsletter-form {
   display: flex;
   gap: 10px;
   justify-content: center;
@@ -752,17 +753,77 @@ body {
 }
 
 /* Responsiveness */
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
   .newsletter-form {
     flex-direction: column;
     gap: 15px;
 
   }
-
+  .newsletter-container {
+    justify-items: start;
+  }
   .newsletter-form input[type="email"],
   .newsletter-form button {
     width: 100%;
   }
+} */
+
+
+.subscription-form {
+background-color: #4A90E2;
+padding: 20px;
+border-radius: 10px;
+width: 90%;
+max-width: 600px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+text-align: center;
+
+margin-left: 500px;
+}
+
+.subscription-form h1 {
+color: white;
+font-size: 1.5rem;
+margin-bottom: 10px;
+}
+
+.subscription-form p {
+color: white;
+font-size: 0.9rem;
+margin-bottom: 20px;
+}
+
+.subscription-form input[type="email"] {
+width: calc(100% - 100px);
+padding: 10px;
+margin-right: 5px;
+border: none;
+border-radius: 5px;
+}
+
+.subscription-form button {
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+background-color: orange;
+color: white;
+font-size: 1rem;
+cursor: pointer;
+}
+
+.subscription-form button:hover {
+background-color: darkorange;
+}
+
+@media (max-width: 600px) {
+.subscription-form input[type="email"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.subscription-form button {
+    width: 100%;
+}
 }
   /*avtar*/
   @media (max-width: 480px) {
