@@ -647,8 +647,9 @@ body {
   /* Avatar Section */
   .avatar {
     position:absolute;
-    bottom: 20px;
-    right: 100px;
+    bottom: 50px;
+    right: 150px;
+
   }
   
   .avatar img {
@@ -668,18 +669,18 @@ body {
   }
   
   .icon-1 {
-    top: 70px;
+    top: 150px;
     right: 200px;
   }
   
   .icon-2 {
-    top: 10px;
-    right: -40px;
+    top: 160px;
+    right: 40px;
   }
   
   .icon-3 {
-    top: -10px;
-  left: -15px;
+    bottom:20px;
+      right: 50px;
   }
 
 @media (max-width: 480px) {
@@ -691,7 +692,9 @@ body {
         width: 30px;
         height: 30px;
     }
-    
+    content{
+      font-size: small;
+    }
 }
 /* Newsletter container */
 /* .newsletter-container {
@@ -799,6 +802,7 @@ padding: 10px;
 margin-right: 5px;
 border: none;
 border-radius: 5px;
+
 }
 
 .subscription-form button {
